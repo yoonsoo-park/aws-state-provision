@@ -1,0 +1,37 @@
+{
+	"configuration": {
+		"sfUserDef": {
+			"file": "sample/modules/some-feature/some-config/environments/some-environment/definitions/provision-user-def.json"
+		},
+		"postInstallScripts": [
+			"sample/modules/some-feature/post-install-scripts/",
+			"sample/modules/some-feature/post-install-scripts/"
+		],
+		"sfMetadata": [
+			"sample/modules/some-feature/some-config/environments/some-environment/metadata/",
+			"sample/modules/some-feature/some-config/environments/some-environment/metadata/"
+		],
+		"sfRecordData": [
+			{
+				"externalId": "nFORCE__lookupKey__c",
+				"csvFilePath": "sample/modules/some-feature/some-config/environments/some-environment/records/nFORCE__SomeReference__c.csv"
+			}
+		],
+		"featureManagement": {
+			"toggles": {
+				"SomeFeatureName_SomeMode": {
+					"config": {
+						"state": "enabled"
+					}
+				}
+			},
+			"version": "1.0.0"
+		},
+		"sfSeedData": [
+			{
+				"externalId": "nFORCE__lookupKey__c",
+				"csvFilePath": "sample/modules/some-feature/some-config/environments/some-environment/seedData/nFORCE__SomeObject__c.csv"
+			}
+		]
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"printWidth": 100,
+	"useTabs": true,
+	"singleQuote": true,
+	"arrowParens": "always",
+	"bracketSpacing": true,
+	"endOfLine": "lf",
+	"htmlWhitespaceSensitivity": "css",
+	"insertPragma": false,
+	"singleAttributePerLine": false,
+	"bracketSameLine": false,
+	"jsxBracketSameLine": false,
+	"jsxSingleQuote": false,
+	"proseWrap": "preserve",
+	"quoteProps": "as-needed",
+	"requirePragma": false,
+	"semi": true,
+	"tabWidth": 4,
+	"vueIndentScriptAndStyle": false,
+	"parser": "typescript",
+	"overrides": [
+		{
+			"files": "**/lwc/**/*.html",
+			"options": { "parser": "lwc" }
+		},
+		{
+			"files": "*.{cmp,page,component,design}",
+			"options": { "parser": "html" }
+		},
+		{
+			"files": ".prettierrc",
+			"options": { "parser": "json" }
+		},
+		{
+			"files": "*.json",
+			"options": { "parser": "json" }
+		}
+	]
+}

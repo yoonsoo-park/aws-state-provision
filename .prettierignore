@@ -1,0 +1,15 @@
+# Project Files
+.github
+.gitignore
+.nvmrc
+.npmrc
+.prettierignore
+.eslintignore
+package-lock.json
+
+## Files generating from building project
+node_modules/**
+
+### IDE ###
+## VS Code ##
+**/jsconfig.json

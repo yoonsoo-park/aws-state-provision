@@ -1,0 +1,11 @@
+{
+	"namespace": "some-nEXAMPLE",
+	"sfdcLoginUrl": "https://login.salesforce.com",
+	"sourceApiVersion": "57.0",
+	"packageDirectories": [
+		{
+			"path": "sample/",
+			"default": true
+		}
+	]
+}

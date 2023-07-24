@@ -1,0 +1,29 @@
+{
+	"name": "ncino-state-provision",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "NODE_PATH=./build node build/index.js",
+		"build": "tsc -p .",
+		"dev": "nodemon src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/express": "^4.17.11",
+		"@types/node": "^16.18.16",
+		"@types/fs-extra": "^11.0.1",
+		"jsforce": "^2.0.0-beta.21",
+		"nodemon": "^2.0.7",
+		"ts-node": "^10.9.1",
+		"tslib": "^2.5.0",
+		"typescript": ">=3.3.1 <4.5.0"
+	},
+	"dependencies": {
+		"@salesforce/core": "^3.34.6",
+		"@salesforce/source-deploy-retrieve": "^9.2.2",
+		"express": "^4.17.1"
+	}
+}

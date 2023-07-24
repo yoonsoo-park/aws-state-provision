@@ -1,0 +1,17 @@
+{
+  "namespace": "nFORCE",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "58.0",
+  "packageDirectories": [
+    {
+      "path": "node_modules/@ncino/force-sdk-nwc/modules"
+    },
+    {
+      "path": "src/nFORCE",
+      "default": true
+    },
+    {
+      "path": "src/unpackaged/orchestration-framework/flows"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"FirstName": "Provision User",
+	"LastName": "(Admin)",
+	"Alias": "SPUser",
+	"profileName": "System Administrator",
+	"permsets": ["Feature_Flag_Admin"],
+	"generatePassword": true
+}
